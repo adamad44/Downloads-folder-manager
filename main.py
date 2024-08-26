@@ -110,9 +110,7 @@ def sortFiles():
 checkDownloadDirForFolders()
 get_directories(fileList, downloadsDirectory)
 
-#sort files 200 times to ensure all files are sorted as some files are not sorted on the first run
-for i in range(200):
-    sortFiles()
 
+sortFiles()
 
 print("done sorting files")
