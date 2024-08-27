@@ -2,7 +2,7 @@ import os
 import time
 
 #please enter your downloads directory
-downloadsDirectory = "/Users/adamjanzir/Downloads"
+downloadsDirectory = os.path.expanduser("~/Downloads")
 
 
 #dictionary of extensions and their respective folders

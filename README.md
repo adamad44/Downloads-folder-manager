@@ -31,9 +31,7 @@ This is a Python script, `main.py`, that helps you manage your downloads folder 
 
 1. Open a terminal and navigate to the project directory.
 
-2. Open main.py and change the downloads folder variable to your own path
-
-3. Run the script:
+2. Run the script:
 
     ```shell
     python main.py
